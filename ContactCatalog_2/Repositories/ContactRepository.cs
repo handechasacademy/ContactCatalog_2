@@ -97,7 +97,6 @@ namespace ContactCatalog_2.Repositories
                     if (contact.Tags.Contains(tagToBeRemoved, StringComparer.OrdinalIgnoreCase))
                     {
                         contact.Tags.Remove(tagToBeRemoved);
-                        Console.WriteLine($"Tag '{tagToBeRemoved}' removed.");
                     }
                     else
                     {

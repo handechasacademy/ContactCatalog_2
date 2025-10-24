@@ -76,7 +76,7 @@ namespace ContactCatalog_2.Services
                 int idToBeRemoved = int.Parse(Console.ReadLine());
 
                 _repository.RemoveContact(idToBeRemoved);
-                Console.WriteLine($"Contact with ID {idToBeRemoved} is remooooved.");
+                Console.WriteLine($"Contact with ID {idToBeRemoved} is removed.");
             }
             catch (ContactNotFoundException ex)
             {
